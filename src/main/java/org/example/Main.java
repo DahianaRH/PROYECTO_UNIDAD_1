@@ -19,15 +19,15 @@ public class Main {
                        double notaFilosofia,
                        double notaEducacionFisica){
         /**Teniendo en cuenta que las materias tienen los siguientes créditos:
-         * Cálculo      2 créditos
-         * Español      2 créditos
-         * Sociales     2 créditos
-         * Fisica       2 créditos
-         * Química      2 créditos
-         * F. ciudadana 1 crédito
-         * Filosofía    1 crédito
-         * Ed. Física   1 crédito
-         * Para un total de 13 créditos
+         * Cálculo           2 créditos
+         * Español           2 créditos
+         * Sociales          2 créditos
+         * Fisica            2 créditos
+         * Química           2 créditos
+         * F. ciudadana      1 crédito
+         * Filosofía         1 crédito
+         * Ed. Física        1 crédito
+         * Para un total de  13 créditos
          */
         public double calcularPromedioEstudiante(){
             double sumatoria = (notaCalculo*2) + (notaEspanol*2) + (notaSociales*2) +
