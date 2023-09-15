@@ -217,14 +217,14 @@ public class Main {
         float promedioEdFisica = 0;
 
         for (Estudiante estudiante : listaEstudiantes) {
-            sumatoriaCalculo += (float)estudiante.notaCalculo;
-            sumatoriaEspanol += (float)estudiante.notaEspanol;
-            sumatoriaSociales += (float)estudiante.notaSociales;
-            sumatoriaFisica += (float)estudiante.notaFisica;
-            sumatoriaQuimica += (float)estudiante.notaQuimica;
-            sumatoriaFCiudadana += (float)estudiante.notaFormacionCiudadana;
-            sumatoriaFilosofia += (float)estudiante.notaFilosofia;
-            sumatoriaEdFisica+= (float)estudiante.notaEducacionFisica;
+            sumatoriaCalculo += estudiante.notaCalculo;
+            sumatoriaEspanol += estudiante.notaEspanol;
+            sumatoriaSociales += estudiante.notaSociales;
+            sumatoriaFisica += estudiante.notaFisica;
+            sumatoriaQuimica += estudiante.notaQuimica;
+            sumatoriaFCiudadana += estudiante.notaFormacionCiudadana;
+            sumatoriaFilosofia += estudiante.notaFilosofia;
+            sumatoriaEdFisica += estudiante.notaEducacionFisica;
             cantidadestudiantes++;
         }
 
@@ -341,7 +341,7 @@ public class Main {
                         case 8:
                             nombreMateria = "Educación Física";
                             break;
-                        default: nombreMateria = "Hay algo mal";
+                        default: nombreMateria = "default";
                     }
                 }
             }
